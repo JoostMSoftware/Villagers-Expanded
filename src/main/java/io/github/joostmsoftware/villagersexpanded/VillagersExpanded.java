@@ -19,7 +19,7 @@ public class VillagersExpanded implements ModInitializer {
 		// Proceed with mild caution.
 
 		VEVillagers.registerVillagers();
-		VEVillagers.registerTrades();
+		VEVillagers.registerProfessionTrades();
 		LOGGER.info("Hello Fabric world!");
 	}
 }
