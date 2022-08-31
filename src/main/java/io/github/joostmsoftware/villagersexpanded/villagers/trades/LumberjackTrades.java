@@ -23,6 +23,7 @@ public class LumberjackTrades {
         SAPLINGS.add(Items.JUNGLE_SAPLING);
         SAPLINGS.add(Items.OAK_SAPLING);
         SAPLINGS.add(Items.SPRUCE_SAPLING);
+        SAPLINGS.add(Items.MANGROVE_PROPAGULE);
 
         LEAVES.add(Items.ACACIA_LEAVES);
         LEAVES.add(Items.AZALEA_LEAVES);
@@ -40,7 +41,7 @@ public class LumberjackTrades {
             factories.add(((entity, random) -> new TradeOffer(
                 new ItemStack(SAPLINGS.get(random.nextInt(SAPLINGS.size())), 1),
                 new ItemStack(Items.EMERALD, 2),
-                20, (int) 1.5, 0.02f
+                15, 1, 0.02f
             )));
             factories.add(((entity, random) -> new TradeOffer(
                 new ItemStack(Items.EMERALD, 1),
@@ -53,12 +54,12 @@ public class LumberjackTrades {
             factories.add((entity, random) -> new TradeOffer(
                 new ItemStack(Items.EMERALD, 4),
                 new ItemStack(LEAVES.get(random.nextInt(LEAVES.size())), 12),
-                20, 1, 0.02f
+                20, 5, 0.02f
             ));
             factories.add((entity, random) -> new TradeOffer(
                 new ItemStack(Items.EMERALD, 10),
                 new ItemStack(Items.IRON_AXE, 1),
-                10, (int) 2.5, 0.02f
+                10, 10, 0.02f
             ));
         });
 
