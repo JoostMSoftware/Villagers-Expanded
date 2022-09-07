@@ -1,9 +1,14 @@
-# Fabric Example Mod
+## Villagers Expanded
+The villager expansion mod you didn't know you needed it!
 
-## Setup
+### Offers
+- 2 new professions
+- 2 new workbenches
+- new items
+- new blocks
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+### Roadmap
+visit our [trello board](https://trello.com/b/IqHEtB5R) if you want to know what we're planning next for updates.
 
 ## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Villagers Expanded is available under the MIT license. Respect the MIT licence and all is good!
