@@ -9,7 +9,7 @@
     "JoostMSoftware"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
+    "homepage": "",
     "sources": "https://github.com/JoostMSoftware/Villagers-Expanded"
   },
 
@@ -31,5 +31,12 @@
     "fabric-api": "*",
     "minecraft": "~1.19",
     "java": ">=17"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/cuCm8Vr5T9"
+      }
+    }
   }
 }

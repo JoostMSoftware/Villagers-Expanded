@@ -23,10 +23,12 @@ public class VEVillagers {
     // register POI's
     public static final PointOfInterestType WOOD_CUTTER_POI = registerPOI("wood_cutter_poi", Blocks.BONE_BLOCK);
     public static final PointOfInterestType OCEAN_POI = registerPOI("ocean_poi", Blocks.PRISMARINE_BRICKS);
+    public static final PointOfInterestType TOMBSTONE_POI = registerPOI("tombstone_poi", Blocks.COAL_BLOCK);
 
     // register Professions
     public static final VillagerProfession LUMBERJACK = registerProfession("lumberjack", PoiKeyList.WOOD_CUTTER_POI);
     public static final VillagerProfession AQUATIC_BIOLOGIST = registerProfession("aquatic_biologist", PoiKeyList.OCEAN_POI);
+    public static final VillagerProfession GRIM_REAPER = registerProfession("grim_reaper", PoiKeyList.TOMBSTONE_POI);
 
     public static void registerVillagers() {
         VillagersExpanded.LOGGER.debug("Registering villagers & their trades for " + VillagersExpanded.MOD_ID);
